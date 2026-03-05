@@ -30,8 +30,14 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     console.error("Subscribe error:", error);
+    const reason =
+      error instanceof Error ? error.message.slice(0, 180) : "unknown_error";
     return NextResponse.json(
-      { success: false, message: "Service unavailable. Please retry later." },
+      {
+        success: false,
+        message: "Service unavailable. Please retry later.",
+        reason,
+      },
       { status: 500 }
     );
   }
