@@ -1,0 +1,13 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#37200B"/>
+      <stop offset="100%" stop-color="#D97E15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g5)"/>
+  <circle cx="980" cy="250" r="210" fill="#FFF5B8" fill-opacity="0.3"/>
+  <rect x="140" y="520" width="340" height="140" rx="28" fill="#6C3A0C" fill-opacity="0.28"/>
+  <text x="96" y="300" fill="#FFFFFF" font-family="Outfit, Arial, sans-serif" font-size="72" font-weight="700">Claude 3.7 Sonnet</text>
+  <text x="96" y="380" fill="#FFEACC" font-family="Outfit, Arial, sans-serif" font-size="44">OpenClaw API Model Page</text>
+</svg>

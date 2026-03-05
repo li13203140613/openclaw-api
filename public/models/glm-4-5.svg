@@ -1,0 +1,13 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#082443"/>
+      <stop offset="100%" stop-color="#1583D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g4)"/>
+  <path d="M840 110 L1180 180 L1040 500 L760 420 Z" fill="#61E2FF" fill-opacity="0.24"/>
+  <path d="M120 500 L380 470 L420 660 L110 670 Z" fill="#FFD95A" fill-opacity="0.2"/>
+  <text x="96" y="300" fill="#FFFFFF" font-family="Outfit, Arial, sans-serif" font-size="86" font-weight="700">GLM-4.5</text>
+  <text x="96" y="380" fill="#CFE6FF" font-family="Outfit, Arial, sans-serif" font-size="44">OpenClaw API Model Page</text>
+</svg>

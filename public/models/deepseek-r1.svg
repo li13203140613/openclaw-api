@@ -1,0 +1,13 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E1F1C"/>
+      <stop offset="100%" stop-color="#11856D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g2)"/>
+  <rect x="820" y="80" width="340" height="340" rx="48" fill="#6AF5C9" fill-opacity="0.24"/>
+  <rect x="120" y="460" width="260" height="170" rx="34" fill="#6AA2FF" fill-opacity="0.2"/>
+  <text x="96" y="300" fill="#FFFFFF" font-family="Outfit, Arial, sans-serif" font-size="86" font-weight="700">DeepSeek R1</text>
+  <text x="96" y="380" fill="#C8F6EA" font-family="Outfit, Arial, sans-serif" font-size="44">OpenClaw API Model Page</text>
+</svg>
