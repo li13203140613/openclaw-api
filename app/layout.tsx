@@ -41,6 +41,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-2EN5V1G28V"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-2EN5V1G28V');
+            `,
+          }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
